@@ -1724,12 +1724,12 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@clerk/clerk-js@^1.26.0":
-  version "1.26.1"
-  resolved "https://registry.yarnpkg.com/@clerk/clerk-js/-/clerk-js-1.26.1.tgz#84af4bfb7035be2e576efe9f84b3f6b84a8eda82"
-  integrity sha512-6puVm0hENs+xxcP5SUIwykoRS2570QsTmx0NWEtqW5+CHlf1kfLA31DHf6zLP5EEskc/rK3/jatwucSOERlMsg==
+"@clerk/clerk-js@^1.28.0":
+  version "1.28.0"
+  resolved "https://registry.yarnpkg.com/@clerk/clerk-js/-/clerk-js-1.28.0.tgz#c13165166023bc8005ab6d7b16e24fdb1464eb34"
+  integrity sha512-IE2hsMTUlkwsTsSZ4h5pEg/a74X5MLIX80wQZ33BEGy96yUlIg+giutaS1IwkdNmnZZNYyGKGmAbJ5e2V3FBXQ==
   dependencies:
-    "@clerk/types" "1.6.0"
+    "@clerk/types" "1.8.0"
     "@popperjs/core" "^2.4.4"
     classnames "^2.2.6"
     core-js "3.8.1"
@@ -1753,10 +1753,10 @@
     lodash "^4.17.21"
     snakecase-keys "^3.2.1"
 
-"@clerk/types@1.6.0", "@clerk/types@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@clerk/types/-/types-1.6.0.tgz#90b96ce6b2c5cd12e13bec4085e8b51720834f63"
-  integrity sha512-Q0aTjhGQoyXeJO33OMNni9UaiE6sIO4mA7GSfN9hwwL2jF0gIKgL20nsUN0F/oq+qc4Id8YTUL4iK2Qqj/fdDg==
+"@clerk/types@1.8.0", "@clerk/types@^1.6.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@clerk/types/-/types-1.8.0.tgz#758d98a82756dd713930364db9cfbef0326296fa"
+  integrity sha512-gMZgVW/sFRT24718nnEBDWsSJbsctdX036sl17Z1PX6kkqUEhvEHCaXYsOkjRmSAthjtQdzcbz7U7hGkBNxu9g==
 
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.3"
