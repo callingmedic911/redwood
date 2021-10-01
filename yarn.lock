@@ -2250,6 +2250,11 @@
   resolved "https://registry.yarnpkg.com/@clerk/types/-/types-1.13.0.tgz#b1293031bd5731b9a0a70ddc631cfdbceaa96981"
   integrity sha512-Uem+s4W82saaZuPsxu2Ds0TIwsPThZbvXli3Lmxdb4c31eL5L7aw0ODYV+xKGe2bJOsUDgrHBQMJxcF7fK26Gg==
 
+"@clerk/types@1.13.2":
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/@clerk/types/-/types-1.13.2.tgz#063602482b9e3134a08bfe4b1ea07c8f46d23dae"
+  integrity sha512-n9OeyvuINI5NSkZnw1fo8ti9BNDWiOLPAWcFHTScpDulpHbXpcGpxNJMbp0SgOrXItvbt4eQSR4Fqg7CQjAviw==
+
 "@discoveryjs/json-ext@^0.5.0", "@discoveryjs/json-ext@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.3.tgz#90420f9f9c6d3987f176a19a7d8e764271a2f55d"
