@@ -25,6 +25,7 @@
     "@redwoodjs/eslint-config": "0.38.0",
     "@redwoodjs/internal": "0.38.0",
     "@redwoodjs/testing": "0.38.0",
+    "@types/aws-lambda": "8.10.84",
     "babel-loader": "8.2.3",
     "babel-plugin-auto-import": "1.1.0",
     "babel-plugin-graphql-tag": "3.3.0",
