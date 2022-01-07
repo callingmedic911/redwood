@@ -67,7 +67,7 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CYPRESS_RW_PATH:  "${{ steps.createpath.outputs.project_path }}"
-          DEBUG: "*"
+          CYPRESS_PROJECT_ID: 5gaz59
         with:
           # we've already installed dependencies
           install: false
