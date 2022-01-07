@@ -119,9 +119,12 @@ export const test_dynamic = () =>
     cy.exec(`rm ${BASE_DIR}/api/db/dev.db`, { failOnNonZeroExit: false })
     // need to also handle case where Prisma Client be out of sync
     cy.exec(
-      `cd ${BASE_DIR}; yarn rimraf ./api/db/migrations && yarn rw prisma migrate reset --skip-seed --force`
+      `cd ${BASE_DIR}; yarn rimraf ./api/db/migrations && yarn rw prisma migrate reset --skip-seed --force`,
+      {
+        timeout: 20_000,
+      }
     )
-    cy.exec(`cd ${BASE_DIR}; yarn rw prisma migrate dev`)
+    cy.exec(`cd ${BASE_DIR}; yarn rw prisma migrate dev`, { timeout: 20_000 })
     cy.exec(`cd ${BASE_DIR}; yarn rw g scaffold post --force`)
 
     // Wait for API server to be available.
